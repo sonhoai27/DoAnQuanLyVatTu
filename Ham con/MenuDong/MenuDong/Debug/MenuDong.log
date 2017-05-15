@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\mixed folder\compressed\doancplusplusson\ham con\menudong\menudong\mylib.h(40): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  MenuDong.vcxproj -> D:\Mixed folder\Compressed\DoAnCplusplusSON\Ham con\MenuDong\Debug\MenuDong.exe
+  MenuDong.vcxproj -> D:\Mixed folder\Compressed\DoAnCplusplusSON\Ham con\MenuDong\Debug\MenuDong.pdb (Partial PDB)

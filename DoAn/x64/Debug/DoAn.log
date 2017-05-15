@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\sonho\desktop\doancplusplusson\doan\mylib.h(18): warning C4172: returning address of local variable or temporary: S
+  DoAn.vcxproj -> C:\Users\sonho\Desktop\DoAnCplusplusSON\x64\Debug\DoAn.exe
+  DoAn.vcxproj -> C:\Users\sonho\Desktop\DoAnCplusplusSON\x64\Debug\DoAn.pdb (Full PDB)

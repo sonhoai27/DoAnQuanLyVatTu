@@ -1,0 +1,68 @@
+#include <iostream>
+#include "DS_HOADON.h"
+#include "HOADON.h"
+#include <string>
+#include "DS_NHANVIEN.h"
+using namespace std;
+
+//void SetColor_m(WORD color)
+//{
+//	HANDLE hConsoleOutput;
+//	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
+//
+//	CONSOLE_SCREEN_BUFFER_INFO screen_buffer_info;
+//	GetConsoleScreenBufferInfo(hConsoleOutput, &screen_buffer_info);
+//
+//	WORD wAttributes = screen_buffer_info.wAttributes;
+//	color &= 0x000f;
+//	wAttributes &= 0xfff0;
+//	wAttributes |= color;
+//
+//	SetConsoleTextAttribute(hConsoleOutput, wAttributes);
+//}
+//
+//void SetBGColor_m(WORD color)
+//{
+//	HANDLE hConsoleOutput;
+//	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
+//
+//	CONSOLE_SCREEN_BUFFER_INFO screen_buffer_info;
+//	GetConsoleScreenBufferInfo(hConsoleOutput, &screen_buffer_info);
+//
+//	WORD wAttributes = screen_buffer_info.wAttributes;
+//	color &= 0x000f;
+//	color <<= 4;
+//	wAttributes &= 0xff0f;
+//	wAttributes |= color;
+//
+//	SetConsoleTextAttribute(hConsoleOutput, wAttributes);
+//}
+//
+//void gotoxy_m(short x, short y)
+//{
+//	HANDLE hConsoleOutput;
+//	COORD Cursor_an_Pos = { x,y };
+//	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
+//	SetConsoleCursorPosition(hConsoleOutput, Cursor_an_Pos);
+//}
+
+int main() {
+	/*DS_VATTU kho;
+	cout << "\nThem Kho";
+	kho.Them();
+	cout<<"\nXuat Kho";
+	kho.Xuat();
+	cout << "\nNhap Hoa Don";
+	DS_HOADON a(kho);
+	a.InsertLast();
+	cout << "\nXuat Kho";
+	kho.Xuat();*/
+	/*HOADON hd;
+	hd.Nhap();
+	hd.Xuat();*/
+	DS_NHANVIEN dsnv;
+	dsnv.CreateTree();
+//system("pause");
+	_getch();
+	return 0;
+}

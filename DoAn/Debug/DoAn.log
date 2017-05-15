@@ -1,0 +1,30 @@
+﻿  HOADON.cpp
+  Generating Code...
+d:\projects\cpp\visual studio 2017\doan\doan\mylib.h(21): warning C4172: returning address of local variable or temporary: S
+  Compiling...
+  main.cpp
+  Generating Code...
+d:\projects\cpp\visual studio 2017\doan\doan\mylib.h(21): warning C4172: returning address of local variable or temporary: S
+  Skipping... (no relevant changes detected)
+  ve.h
+main.obj : error LNK2005: "int __cdecl CheckPwd(void)" (?CheckPwd@@YAHXZ) already defined in HOADON.obj
+main.obj : error LNK2005: "char * __cdecl Pwd(void)" (?Pwd@@YAPADXZ) already defined in HOADON.obj
+main.obj : error LNK2005: "void __cdecl SetBGColor(unsigned short)" (?SetBGColor@@YAXG@Z) already defined in HOADON.obj
+main.obj : error LNK2005: "void __cdecl SetColor(unsigned short)" (?SetColor@@YAXG@Z) already defined in HOADON.obj
+main.obj : error LNK2005: "void __cdecl clreol(void)" (?clreol@@YAXXZ) already defined in HOADON.obj
+main.obj : error LNK2005: "void __cdecl coutChar(int)" (?coutChar@@YAXH@Z) already defined in HOADON.obj
+main.obj : error LNK2005: "void __cdecl gotoxy(short,short)" (?gotoxy@@YAXFF@Z) already defined in HOADON.obj
+main.obj : error LNK2005: "void __cdecl vemau(int,int,int,int)" (?vemau@@YAXHHHH@Z) already defined in HOADON.obj
+main.obj : error LNK2005: "int __cdecl wherex(void)" (?wherex@@YAHXZ) already defined in HOADON.obj
+main.obj : error LNK2005: "int __cdecl wherey(void)" (?wherey@@YAHXZ) already defined in HOADON.obj
+ve.obj : error LNK2005: "int __cdecl CheckPwd(void)" (?CheckPwd@@YAHXZ) already defined in HOADON.obj
+ve.obj : error LNK2005: "char * __cdecl Pwd(void)" (?Pwd@@YAPADXZ) already defined in HOADON.obj
+ve.obj : error LNK2005: "void __cdecl SetBGColor(unsigned short)" (?SetBGColor@@YAXG@Z) already defined in HOADON.obj
+ve.obj : error LNK2005: "void __cdecl SetColor(unsigned short)" (?SetColor@@YAXG@Z) already defined in HOADON.obj
+ve.obj : error LNK2005: "void __cdecl clreol(void)" (?clreol@@YAXXZ) already defined in HOADON.obj
+ve.obj : error LNK2005: "void __cdecl coutChar(int)" (?coutChar@@YAXH@Z) already defined in HOADON.obj
+ve.obj : error LNK2005: "void __cdecl gotoxy(short,short)" (?gotoxy@@YAXFF@Z) already defined in HOADON.obj
+ve.obj : error LNK2005: "void __cdecl vemau(int,int,int,int)" (?vemau@@YAXHHHH@Z) already defined in HOADON.obj
+ve.obj : error LNK2005: "int __cdecl wherex(void)" (?wherex@@YAHXZ) already defined in HOADON.obj
+ve.obj : error LNK2005: "int __cdecl wherey(void)" (?wherey@@YAHXZ) already defined in HOADON.obj
+D:\Projects\CPP\Visual Studio 2017\DoAn\Debug\DoAn.exe : fatal error LNK1169: one or more multiply defined symbols found
